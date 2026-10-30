@@ -1,0 +1,114 @@
+================================================
+              DIG DNS RECONNAISSANCE
+================================================
+
+===== A RECORD =====
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29946
+;; flags: qr rd ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;192.168.18.134.			IN	A
+
+;; ANSWER SECTION:
+192.168.18.134.		5	IN	A	192.168.18.134
+
+;; Query time: 3 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Wed Oct 28 04:15:59 EDT 2026
+;; MSG SIZE  rcvd: 62
+
+
+===== AAAA RECORD =====
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 AAAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60193
+;; flags: qr rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;192.168.18.134.			IN	AAAA
+
+;; Query time: 55 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Wed Oct 28 04:15:59 EDT 2026
+;; MSG SIZE  rcvd: 32
+
+
+===== MX RECORD =====
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 MX
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42426
+;; flags: qr rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;192.168.18.134.			IN	MX
+
+;; Query time: 3 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Wed Oct 28 04:15:59 EDT 2026
+;; MSG SIZE  rcvd: 32
+
+
+===== NS RECORD =====
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 NS
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61187
+;; flags: qr rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;192.168.18.134.			IN	NS
+
+;; Query time: 3 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Wed Oct 28 04:15:59 EDT 2026
+;; MSG SIZE  rcvd: 32
+
+
+===== TXT RECORD =====
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 65443
+;; flags: qr rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;192.168.18.134.			IN	TXT
+
+;; Query time: 3 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Wed Oct 28 04:15:59 EDT 2026
+;; MSG SIZE  rcvd: 32
+
+
+===== PTR RECORD =====
+
+; <<>> DiG 9.20.23-1-Debian <<>> -x 192.168.18.134
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42744
+;; flags: qr rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;134.18.168.192.in-addr.arpa.	IN	PTR
+
+;; Query time: 3 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Wed Oct 28 04:15:59 EDT 2026
+;; MSG SIZE  rcvd: 45
+

@@ -1,0 +1,42 @@
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134
+;; global options: +cmd
+;; no servers could be reached
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+
+; <<>> DiG 9.20.23-1-Debian <<>> -x 192.168.18.134
+;; global options: +cmd
+;; no servers could be reached
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 MX
+;; global options: +cmd
+;; no servers could be reached
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 NS
+;; global options: +cmd
+;; no servers could be reached
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 TXT
+;; global options: +cmd
+;; no servers could be reached
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+;; communications error to 192.168.18.2#53: host unreachable
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 AAAA
+;; global options: +cmd
+;; no servers could be reached

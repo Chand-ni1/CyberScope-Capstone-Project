@@ -1,0 +1,11 @@
+CyberScope - SQL Injection Assessment
+=====================================
+Target: http://192.168.18.134/
+Assessment: DVWA SQL Injection lab
+Status: Automated injection testing not performed
+
+Verification checklist:
+[ ] Check whether the id parameter is injectable
+[ ] Record database names observed in the lab
+[ ] Record tables observed in the dvwa database
+[ ] Verify findings and document remediation

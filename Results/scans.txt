@@ -1,0 +1,2457 @@
+==============================================================
+              AUTOMATED VULNERABILITY ASSESSMENT
+                            REPORT
+==============================================================
+
+Target       : 192.168.18.134
+Date         : 2026-10-28 04:15:50
+
+==============================================================
+
+Target reachability: ICMP response received.
+
+
+==============================================================
+                 VULNERABILITY FINDINGS
+==============================================================
+
+Nmap vulnerability/CVE findings:
+--------------------------------------------------------------
+|     	CVE-2011-2523	10.0	https://vulners.com/cve/CVE-2011-2523
+|   VULNERABLE:
+|     State: VULNERABLE (Exploitable)
+|     IDs:  BID:48539  CVE:CVE-2011-2523
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2523
+|     	CVE-2023-38408	9.8	https://vulners.com/cve/CVE-2023-38408
+|     	CVE-2016-1908	9.8	https://vulners.com/cve/CVE-2016-1908
+|     	CVE-2010-4478	9.8	https://vulners.com/cve/CVE-2010-4478
+|     	CVE-2026-60002	9.4	https://vulners.com/cve/CVE-2026-60002
+|     	CVE-2015-5600	8.5	https://vulners.com/cve/CVE-2015-5600
+|     	CVE-2026-35414	8.1	https://vulners.com/cve/CVE-2026-35414
+|     	CVE-2026-35386	8.1	https://vulners.com/cve/CVE-2026-35386
+|     	CVE-2026-35385	8.1	https://vulners.com/cve/CVE-2026-35385
+|     	CVE-2026-106583	7.8	https://vulners.com/cve/CVE-2026-106583
+|     	CVE-2020-15778	7.8	https://vulners.com/cve/CVE-2020-15778
+|     	CVE-2016-6515	7.8	https://vulners.com/cve/CVE-2016-6515
+|     	CVE-2016-10012	7.8	https://vulners.com/cve/CVE-2016-10012
+|     	CVE-2015-8325	7.8	https://vulners.com/cve/CVE-2015-8325
+|     	CVE-2026-60000	7.5	https://vulners.com/cve/CVE-2026-60000
+|     	CVE-2026-59999	7.5	https://vulners.com/cve/CVE-2026-59999
+|     	CVE-2026-106555	7.5	https://vulners.com/cve/CVE-2026-106555
+|     	CVE-2026-106553	7.5	https://vulners.com/cve/CVE-2026-106553
+|     	CVE-2016-10708	7.5	https://vulners.com/cve/CVE-2016-10708
+|     	CVE-2016-10009	7.5	https://vulners.com/cve/CVE-2016-10009
+|     	CVE-2014-1692	7.5	https://vulners.com/cve/CVE-2014-1692
+|     	CVE-2010-5107	7.5	https://vulners.com/cve/CVE-2010-5107
+|     	CVE-2016-10010	7.0	https://vulners.com/cve/CVE-2016-10010
+|     	CVE-2015-6564	7.0	https://vulners.com/cve/CVE-2015-6564
+|     	CVE-2019-6110	6.8	https://vulners.com/cve/CVE-2019-6110
+|     	CVE-2019-6109	6.8	https://vulners.com/cve/CVE-2019-6109
+|     	CVE-2026-60001	6.5	https://vulners.com/cve/CVE-2026-60001
+|     	CVE-2026-59998	6.5	https://vulners.com/cve/CVE-2026-59998
+|     	CVE-2026-35387	6.5	https://vulners.com/cve/CVE-2026-35387
+|     	CVE-2026-106585	6.5	https://vulners.com/cve/CVE-2026-106585
+|     	CVE-2026-106552	6.5	https://vulners.com/cve/CVE-2026-106552
+|     	CVE-2023-51385	6.5	https://vulners.com/cve/CVE-2023-51385
+|     	CVE-2014-2653	6.5	https://vulners.com/cve/CVE-2014-2653
+|     	CVE-2012-0814	6.5	https://vulners.com/cve/CVE-2012-0814
+|     	CVE-2008-1657	6.5	https://vulners.com/cve/CVE-2008-1657
+|     	CVE-2016-3115	6.4	https://vulners.com/cve/CVE-2016-3115
+|     	CVE-2015-6563	6.4	https://vulners.com/cve/CVE-2015-6563
+|     	CVE-2016-10011	6.2	https://vulners.com/cve/CVE-2016-10011
+|     	CVE-2023-48795	5.9	https://vulners.com/cve/CVE-2023-48795
+|     	CVE-2019-6111	5.9	https://vulners.com/cve/CVE-2019-6111
+|     	CVE-2018-15473	5.9	https://vulners.com/cve/CVE-2018-15473
+|     	CVE-2016-6210	5.9	https://vulners.com/cve/CVE-2016-6210
+|     	CVE-2014-2532	5.8	https://vulners.com/cve/CVE-2014-2532
+|     	CVE-2011-4327	5.5	https://vulners.com/cve/CVE-2011-4327
+|     	CVE-2026-59997	5.4	https://vulners.com/cve/CVE-2026-59997
+|     	CVE-2026-59996	5.4	https://vulners.com/cve/CVE-2026-59996
+|     	CVE-2026-59995	5.4	https://vulners.com/cve/CVE-2026-59995
+|     	CVE-2018-20685	5.3	https://vulners.com/cve/CVE-2018-20685
+|     	CVE-2017-15906	5.3	https://vulners.com/cve/CVE-2017-15906
+|     	CVE-2016-20012	5.3	https://vulners.com/cve/CVE-2016-20012
+|     	CVE-2026-73282	4.8	https://vulners.com/cve/CVE-2026-73282
+|     	CVE-2026-106586	4.3	https://vulners.com/cve/CVE-2026-106586
+|     	CVE-2015-5352	4.3	https://vulners.com/cve/CVE-2015-5352
+|     	CVE-2010-4755	4.0	https://vulners.com/cve/CVE-2010-4755
+|     	CVE-2026-106582	3.7	https://vulners.com/cve/CVE-2026-106582
+|     	CVE-2021-36368	3.7	https://vulners.com/cve/CVE-2021-36368
+|     	CVE-2026-106587	3.6	https://vulners.com/cve/CVE-2026-106587
+|     	CVE-2025-61985	3.6	https://vulners.com/cve/CVE-2025-61985
+|     	CVE-2025-61984	3.6	https://vulners.com/cve/CVE-2025-61984
+|     	CVE-2026-73281	3.5	https://vulners.com/cve/CVE-2026-73281
+|     	CVE-2011-5000	3.5	https://vulners.com/cve/CVE-2011-5000
+|     	CVE-2026-106584	3.3	https://vulners.com/cve/CVE-2026-106584
+|     	CVE-2026-106588	3.1	https://vulners.com/cve/CVE-2026-106588
+|     	CVE-2026-106589	2.9	https://vulners.com/cve/CVE-2026-106589
+|     	CVE-2026-73283	2.5	https://vulners.com/cve/CVE-2026-73283
+|     	CVE-2026-35388	2.5	https://vulners.com/cve/CVE-2026-35388
+|     	CVE-2008-3259	1.2	https://vulners.com/cve/CVE-2008-3259
+|   VULNERABLE:
+|     State: VULNERABLE
+|       eavesdropping, and are vulnerable to active man-in-the-middle attacks
+|     State: VULNERABLE
+|     IDs:  BID:74733  CVE:CVE-2015-4000
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4000
+|     State: VULNERABLE
+|   VULNERABLE:
+|     State: VULNERABLE
+|     IDs:  BID:70574  CVE:CVE-2014-3566
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566
+|_  The SMTP server is not Exim: NOT VULNERABLE
+|     	CVE-2008-0122	10.0	https://vulners.com/cve/CVE-2008-0122
+|     	CVE-2021-25216	9.8	https://vulners.com/cve/CVE-2021-25216
+|     	CVE-2020-8616	8.6	https://vulners.com/cve/CVE-2020-8616
+|     	CVE-2016-1286	8.6	https://vulners.com/cve/CVE-2016-1286
+|     	CVE-2012-1667	8.5	https://vulners.com/cve/CVE-2012-1667
+|     	CVE-2017-3141	7.8	https://vulners.com/cve/CVE-2017-3141
+|     	CVE-2016-2776	7.8	https://vulners.com/cve/CVE-2016-2776
+|     	CVE-2015-5722	7.8	https://vulners.com/cve/CVE-2015-5722
+|     	CVE-2015-5477	7.8	https://vulners.com/cve/CVE-2015-5477
+|     	CVE-2014-8500	7.8	https://vulners.com/cve/CVE-2014-8500
+|     	CVE-2012-5166	7.8	https://vulners.com/cve/CVE-2012-5166
+|     	CVE-2012-4244	7.8	https://vulners.com/cve/CVE-2012-4244
+|     	CVE-2012-3817	7.8	https://vulners.com/cve/CVE-2012-3817
+|     	CVE-2008-4163	7.8	https://vulners.com/cve/CVE-2008-4163
+|     	CVE-2010-0382	7.6	https://vulners.com/cve/CVE-2010-0382
+|     	CVE-2026-3039	7.5	https://vulners.com/cve/CVE-2026-3039
+|     	CVE-2024-1975	7.5	https://vulners.com/cve/CVE-2024-1975
+|     	CVE-2023-50868	7.5	https://vulners.com/cve/CVE-2023-50868
+|     	CVE-2023-50387	7.5	https://vulners.com/cve/CVE-2023-50387
+|     	CVE-2023-4408	7.5	https://vulners.com/cve/CVE-2023-4408
+|     	CVE-2023-3341	7.5	https://vulners.com/cve/CVE-2023-3341
+|     	CVE-2021-25215	7.5	https://vulners.com/cve/CVE-2021-25215
+|     	CVE-2020-8617	7.5	https://vulners.com/cve/CVE-2020-8617
+|     	CVE-2017-3145	7.5	https://vulners.com/cve/CVE-2017-3145
+|     	CVE-2017-3143	7.5	https://vulners.com/cve/CVE-2017-3143
+|     	CVE-2016-9444	7.5	https://vulners.com/cve/CVE-2016-9444
+|     	CVE-2016-9131	7.5	https://vulners.com/cve/CVE-2016-9131
+|     	CVE-2016-8864	7.5	https://vulners.com/cve/CVE-2016-8864
+|     	CVE-2016-2848	7.5	https://vulners.com/cve/CVE-2016-2848
+|     	CVE-2009-0265	7.5	https://vulners.com/cve/CVE-2009-0265
+|     	CVE-2015-8461	7.1	https://vulners.com/cve/CVE-2015-8461
+|     	CVE-2015-5986	7.1	https://vulners.com/cve/CVE-2015-5986
+|     	CVE-2015-8705	7.0	https://vulners.com/cve/CVE-2015-8705
+|     	CVE-2016-1285	6.8	https://vulners.com/cve/CVE-2016-1285
+|     	CVE-2015-8704	6.8	https://vulners.com/cve/CVE-2015-8704
+|     	CVE-2009-0025	6.8	https://vulners.com/cve/CVE-2009-0025
+|     	CVE-2020-8622	6.5	https://vulners.com/cve/CVE-2020-8622
+|     	CVE-2018-5741	6.5	https://vulners.com/cve/CVE-2018-5741
+|     	CVE-2016-6170	6.5	https://vulners.com/cve/CVE-2016-6170
+|     	CVE-2010-3614	6.4	https://vulners.com/cve/CVE-2010-3614
+|     	CVE-2016-2775	5.9	https://vulners.com/cve/CVE-2016-2775
+|     	CVE-2022-2795	5.3	https://vulners.com/cve/CVE-2022-2795
+|     	CVE-2021-25219	5.3	https://vulners.com/cve/CVE-2021-25219
+|     	CVE-2017-3142	5.3	https://vulners.com/cve/CVE-2017-3142
+|     	CVE-2015-8000	5.0	https://vulners.com/cve/CVE-2015-8000
+|     	CVE-2012-1033	5.0	https://vulners.com/cve/CVE-2012-1033
+|     	CVE-2011-4313	5.0	https://vulners.com/cve/CVE-2011-4313
+|     	CVE-2011-1910	5.0	https://vulners.com/cve/CVE-2011-1910
+|     	CVE-2010-3762	4.3	https://vulners.com/cve/CVE-2010-3762
+|     	CVE-2010-0097	4.3	https://vulners.com/cve/CVE-2010-0097
+|     	CVE-2009-0696	4.3	https://vulners.com/cve/CVE-2009-0696
+|     	CVE-2010-0290	4.0	https://vulners.com/cve/CVE-2010-0290
+|     	CVE-2009-4022	2.6	https://vulners.com/cve/CVE-2009-4022
+|     	CVE-2010-0425	10.0	https://vulners.com/cve/CVE-2010-0425
+|     	CVE-2026-28780	9.8	https://vulners.com/cve/CVE-2026-28780
+|     	CVE-2024-38476	9.8	https://vulners.com/cve/CVE-2024-38476
+|     	CVE-2022-31813	9.8	https://vulners.com/cve/CVE-2022-31813
+|     	CVE-2022-22720	9.8	https://vulners.com/cve/CVE-2022-22720
+|     	CVE-2021-44790	9.8	https://vulners.com/cve/CVE-2021-44790
+|     	CVE-2021-39275	9.8	https://vulners.com/cve/CVE-2021-39275
+|     	CVE-2018-1312	9.8	https://vulners.com/cve/CVE-2018-1312
+|     	CVE-2017-7679	9.8	https://vulners.com/cve/CVE-2017-7679
+|     	CVE-2017-3169	9.8	https://vulners.com/cve/CVE-2017-3169
+|     	CVE-2017-3167	9.8	https://vulners.com/cve/CVE-2017-3167
+|     	CVE-2009-3555	9.8	https://vulners.com/cve/CVE-2009-3555
+|     	MEND:CVE-2025-49812	9.1	https://vulners.com/mend/MEND:CVE-2025-49812
+|     	CVE-2026-89282	9.1	https://vulners.com/cve/CVE-2026-89282
+|     	CVE-2026-42535	9.1	https://vulners.com/cve/CVE-2026-42535
+|     	CVE-2024-40898	9.1	https://vulners.com/cve/CVE-2024-40898
+|     	CVE-2022-28615	9.1	https://vulners.com/cve/CVE-2022-28615
+|     	CVE-2022-22721	9.1	https://vulners.com/cve/CVE-2022-22721
+|     	CVE-2017-9788	9.1	https://vulners.com/cve/CVE-2017-9788
+|     	CVE-2021-40438	9.0	https://vulners.com/cve/CVE-2021-40438
+|     	CVE-2026-93546	8.8	https://vulners.com/cve/CVE-2026-93546
+|     	CVE-2026-24072	8.8	https://vulners.com/cve/CVE-2026-24072
+|     	MEND:CVE-2025-59775	8.7	https://vulners.com/mend/MEND:CVE-2025-59775
+|     	MEND:CVE-2025-58098	8.7	https://vulners.com/mend/MEND:CVE-2025-58098
+|     	MEND:CVE-2024-47252	8.7	https://vulners.com/mend/MEND:CVE-2024-47252
+|     	MEND:CVE-2024-43204	8.7	https://vulners.com/mend/MEND:CVE-2024-43204
+|     	MEND:CVE-2024-42516	8.7	https://vulners.com/mend/MEND:CVE-2024-42516
+|     	CVE-2026-89281	8.4	https://vulners.com/cve/CVE-2026-89281
+|     	CVE-2025-58098	8.3	https://vulners.com/cve/CVE-2025-58098
+|     	CVE-2016-5387	8.1	https://vulners.com/cve/CVE-2016-5387
+|     	CVE-2011-3192	7.8	https://vulners.com/cve/CVE-2011-3192
+|     	CVE-2026-34059	7.5	https://vulners.com/cve/CVE-2026-34059
+|     	CVE-2026-29169	7.5	https://vulners.com/cve/CVE-2026-29169
+|     	CVE-2023-31122	7.5	https://vulners.com/cve/CVE-2023-31122
+|     	CVE-2022-30556	7.5	https://vulners.com/cve/CVE-2022-30556
+|     	CVE-2022-29404	7.5	https://vulners.com/cve/CVE-2022-29404
+|     	CVE-2022-22719	7.5	https://vulners.com/cve/CVE-2022-22719
+|     	CVE-2021-34798	7.5	https://vulners.com/cve/CVE-2021-34798
+|     	CVE-2018-1333	7.5	https://vulners.com/cve/CVE-2018-1333
+|     	CVE-2018-1303	7.5	https://vulners.com/cve/CVE-2018-1303
+|     	CVE-2017-9798	7.5	https://vulners.com/cve/CVE-2017-9798
+|     	CVE-2017-15710	7.5	https://vulners.com/cve/CVE-2017-15710
+|     	CVE-2016-8743	7.5	https://vulners.com/cve/CVE-2016-8743
+|     	CVE-2009-2699	7.5	https://vulners.com/cve/CVE-2009-2699
+|     	CVE-2009-1955	7.5	https://vulners.com/cve/CVE-2009-1955
+|     	CVE-2006-20001	7.5	https://vulners.com/cve/CVE-2006-20001
+|     	CVE-2025-49812	7.4	https://vulners.com/cve/CVE-2025-49812
+|     	CVE-2023-38709	7.3	https://vulners.com/cve/CVE-2023-38709
+|     	CVE-2009-1891	7.1	https://vulners.com/cve/CVE-2009-1891
+|     	CVE-2009-1890	7.1	https://vulners.com/cve/CVE-2009-1890
+|     	CVE-2012-0883	6.9	https://vulners.com/cve/CVE-2012-0883
+|     	CVE-2014-0226	6.8	https://vulners.com/cve/CVE-2014-0226
+|     	CVE-2009-1956	6.4	https://vulners.com/cve/CVE-2009-1956
+|     	CVE-2026-29170	6.1	https://vulners.com/cve/CVE-2026-29170
+|     	CVE-2016-4975	6.1	https://vulners.com/cve/CVE-2016-4975
+|     	CVE-2018-1302	5.9	https://vulners.com/cve/CVE-2018-1302
+|     	CVE-2018-1301	5.9	https://vulners.com/cve/CVE-2018-1301
+|     	CVE-2026-34032	5.3	https://vulners.com/cve/CVE-2026-34032
+|     	CVE-2026-33857	5.3	https://vulners.com/cve/CVE-2026-33857
+|     	CVE-2022-37436	5.3	https://vulners.com/cve/CVE-2022-37436
+|     	CVE-2022-28614	5.3	https://vulners.com/cve/CVE-2022-28614
+|     	CVE-2022-28330	5.3	https://vulners.com/cve/CVE-2022-28330
+|     	CVE-2013-1862	5.1	https://vulners.com/cve/CVE-2013-1862
+|     	CVE-2015-3183	5.0	https://vulners.com/cve/CVE-2015-3183
+|     	CVE-2015-0228	5.0	https://vulners.com/cve/CVE-2015-0228
+|     	CVE-2014-0231	5.0	https://vulners.com/cve/CVE-2014-0231
+|     	CVE-2014-0098	5.0	https://vulners.com/cve/CVE-2014-0098
+|     	CVE-2013-6438	5.0	https://vulners.com/cve/CVE-2013-6438
+|     	CVE-2013-5704	5.0	https://vulners.com/cve/CVE-2013-5704
+|     	CVE-2011-3368	5.0	https://vulners.com/cve/CVE-2011-3368
+|     	CVE-2010-1623	5.0	https://vulners.com/cve/CVE-2010-1623
+|     	CVE-2010-1452	5.0	https://vulners.com/cve/CVE-2010-1452
+|     	CVE-2010-0408	5.0	https://vulners.com/cve/CVE-2010-0408
+|     	CVE-2009-3720	5.0	https://vulners.com/cve/CVE-2009-3720
+|     	CVE-2009-3560	5.0	https://vulners.com/cve/CVE-2009-3560
+|     	CVE-2009-3095	5.0	https://vulners.com/cve/CVE-2009-3095
+|     	CVE-2008-2364	5.0	https://vulners.com/cve/CVE-2008-2364
+|     	CVE-2007-6750	5.0	https://vulners.com/cve/CVE-2007-6750
+|     	CVE-2009-1195	4.9	https://vulners.com/cve/CVE-2009-1195
+|     	CVE-2026-33006	4.8	https://vulners.com/cve/CVE-2026-33006
+|     	CVE-2012-0031	4.6	https://vulners.com/cve/CVE-2012-0031
+|     	CVE-2011-3607	4.4	https://vulners.com/cve/CVE-2011-3607
+|     	CVE-2026-42528	4.3	https://vulners.com/cve/CVE-2026-42528
+|     	CVE-2016-8612	4.3	https://vulners.com/cve/CVE-2016-8612
+|     	CVE-2014-0118	4.3	https://vulners.com/cve/CVE-2014-0118
+|     	CVE-2013-1896	4.3	https://vulners.com/cve/CVE-2013-1896
+|     	CVE-2012-4558	4.3	https://vulners.com/cve/CVE-2012-4558
+|     	CVE-2012-3499	4.3	https://vulners.com/cve/CVE-2012-3499
+|     	CVE-2012-0053	4.3	https://vulners.com/cve/CVE-2012-0053
+|     	CVE-2011-4317	4.3	https://vulners.com/cve/CVE-2011-4317
+|     	CVE-2011-3639	4.3	https://vulners.com/cve/CVE-2011-3639
+|     	CVE-2011-0419	4.3	https://vulners.com/cve/CVE-2011-0419
+|     	CVE-2010-0434	4.3	https://vulners.com/cve/CVE-2010-0434
+|     	CVE-2009-0023	4.3	https://vulners.com/cve/CVE-2009-0023
+|     	CVE-2008-2939	4.3	https://vulners.com/cve/CVE-2008-2939
+|     	CVE-2008-0455	4.3	https://vulners.com/cve/CVE-2008-0455
+|     	CVE-2007-6420	4.3	https://vulners.com/cve/CVE-2007-6420
+|     	CVE-2012-2687	2.6	https://vulners.com/cve/CVE-2012-2687
+|     	CVE-2009-3094	2.6	https://vulners.com/cve/CVE-2009-3094
+|     	CVE-2008-0456	2.6	https://vulners.com/cve/CVE-2008-0456
+|     	CVE-2011-4415	1.2	https://vulners.com/cve/CVE-2011-4415
+|   VULNERABLE:
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750
+|     	CVE-2019-12815	9.8	https://vulners.com/cve/CVE-2019-12815
+|     	CVE-2011-4130	9.0	https://vulners.com/cve/CVE-2011-4130
+|     	CVE-2026-63090	8.8	https://vulners.com/cve/CVE-2026-63090
+|     	CVE-2026-35025	8.6	https://vulners.com/cve/CVE-2026-35025
+|     	CVE-2026-44331	8.1	https://vulners.com/cve/CVE-2026-44331
+|     	CVE-2026-42167	8.1	https://vulners.com/cve/CVE-2026-42167
+|     	CVE-2026-53994	7.7	https://vulners.com/cve/CVE-2026-53994
+|     	CVE-2024-48651	7.5	https://vulners.com/cve/CVE-2024-48651
+|     	CVE-2023-51713	7.5	https://vulners.com/cve/CVE-2023-51713
+|     	CVE-2021-46854	7.5	https://vulners.com/cve/CVE-2021-46854
+|     	CVE-2020-9272	7.5	https://vulners.com/cve/CVE-2020-9272
+|     	CVE-2019-19272	7.5	https://vulners.com/cve/CVE-2019-19272
+|     	CVE-2019-19271	7.5	https://vulners.com/cve/CVE-2019-19271
+|     	CVE-2019-19270	7.5	https://vulners.com/cve/CVE-2019-19270
+|     	CVE-2019-18217	7.5	https://vulners.com/cve/CVE-2019-18217
+|     	CVE-2016-3125	7.5	https://vulners.com/cve/CVE-2016-3125
+|     	CVE-2026-63091	7.1	https://vulners.com/cve/CVE-2026-63091
+|     	CVE-2010-3867	7.1	https://vulners.com/cve/CVE-2010-3867
+|     	CVE-2010-4652	6.8	https://vulners.com/cve/CVE-2010-4652
+|     	CVE-2009-0543	6.8	https://vulners.com/cve/CVE-2009-0543
+|     	CVE-2023-48795	5.9	https://vulners.com/cve/CVE-2023-48795
+|     	CVE-2009-3639	5.8	https://vulners.com/cve/CVE-2009-3639
+|     	CVE-2017-7418	5.5	https://vulners.com/cve/CVE-2017-7418
+|     	CVE-2011-1137	5.0	https://vulners.com/cve/CVE-2011-1137
+|     	CVE-2019-19269	4.9	https://vulners.com/cve/CVE-2019-19269
+|     	CVE-2008-7265	4.0	https://vulners.com/cve/CVE-2008-7265
+|     	CVE-2012-6095	1.2	https://vulners.com/cve/CVE-2012-6095
+|     	CVE-2017-15945	7.8	https://vulners.com/cve/CVE-2017-15945
+|     	CVE-2009-4028	6.8	https://vulners.com/cve/CVE-2009-4028
+|     	CVE-2010-1621	5.0	https://vulners.com/cve/CVE-2010-1621
+|     	CVE-2015-2575	4.9	https://vulners.com/cve/CVE-2015-2575
+|     	CVE-2008-2079	4.6	https://vulners.com/cve/CVE-2008-2079
+|     	CVE-2010-3682	4.0	https://vulners.com/cve/CVE-2010-3682
+|     	CVE-2010-3677	4.0	https://vulners.com/cve/CVE-2010-3677
+|     	CVE-2009-0819	4.0	https://vulners.com/cve/CVE-2009-0819
+|     	CVE-2007-5925	4.0	https://vulners.com/cve/CVE-2007-5925
+|_    	CVE-2010-1626	3.6	https://vulners.com/cve/CVE-2010-1626
+|     	CVE-2013-1903	10.0	https://vulners.com/cve/CVE-2013-1903
+|     	CVE-2013-1902	10.0	https://vulners.com/cve/CVE-2013-1902
+|     	POSTGRESQL:CVE-2019-10211	9.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10211
+|     	POSTGRESQL:CVE-2018-16850	9.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2018-16850
+|     	POSTGRESQL:CVE-2017-7546	9.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-7546
+|     	POSTGRESQL:CVE-2015-3166	9.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-3166
+|     	POSTGRESQL:CVE-2015-0244	9.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-0244
+|     	CVE-2019-10211	9.8	https://vulners.com/cve/CVE-2019-10211
+|     	CVE-2015-3166	9.8	https://vulners.com/cve/CVE-2015-3166
+|     	CVE-2015-0244	9.8	https://vulners.com/cve/CVE-2015-0244
+|     	POSTGRESQL:CVE-2016-7048	9.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2016-7048
+|     	CVE-2016-7048	9.3	https://vulners.com/cve/CVE-2016-7048
+|     	POSTGRESQL:CVE-2018-1115	9.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2018-1115
+|     	POSTGRESQL:CVE-2016-3065	9.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2016-3065
+|     	CVE-2018-1115	9.1	https://vulners.com/cve/CVE-2018-1115
+|     	POSTGRESQL:CVE-2019-10164	9.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10164
+|     	POSTGRESQL:CVE-2026-6638	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6638
+|     	POSTGRESQL:CVE-2026-6637	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6637
+|     	POSTGRESQL:CVE-2026-6477	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6477
+|     	POSTGRESQL:CVE-2026-6475	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6475
+|     	POSTGRESQL:CVE-2026-6473	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6473
+|     	POSTGRESQL:CVE-2026-2006	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-2006
+|     	POSTGRESQL:CVE-2026-2005	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-2005
+|     	POSTGRESQL:CVE-2026-2004	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-2004
+|     	POSTGRESQL:CVE-2026-19385	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-19385
+|     	POSTGRESQL:CVE-2026-18408	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-18408
+|     	POSTGRESQL:CVE-2026-16239	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-16239
+|     	POSTGRESQL:CVE-2026-16238	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-16238
+|     	POSTGRESQL:CVE-2026-15742	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-15742
+|     	POSTGRESQL:CVE-2026-15741	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-15741
+|     	POSTGRESQL:CVE-2026-14680	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14680
+|     	POSTGRESQL:CVE-2026-14677	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14677
+|     	POSTGRESQL:CVE-2026-14676	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14676
+|     	POSTGRESQL:CVE-2026-14671	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14671
+|     	POSTGRESQL:CVE-2026-14670	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14670
+|     	POSTGRESQL:CVE-2026-14669	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14669
+|     	POSTGRESQL:CVE-2026-14664	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14664
+|     	POSTGRESQL:CVE-2026-14662	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14662
+|     	POSTGRESQL:CVE-2025-8715	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2025-8715
+|     	POSTGRESQL:CVE-2025-8714	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2025-8714
+|     	POSTGRESQL:CVE-2024-7348	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2024-7348
+|     	POSTGRESQL:CVE-2024-10979	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2024-10979
+|     	POSTGRESQL:CVE-2023-5869	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2023-5869
+|     	POSTGRESQL:CVE-2023-39417	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2023-39417
+|     	POSTGRESQL:CVE-2022-1552	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2022-1552
+|     	POSTGRESQL:CVE-2021-32027	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2021-32027
+|     	POSTGRESQL:CVE-2020-25695	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2020-25695
+|     	POSTGRESQL:CVE-2019-10208	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10208
+|     	POSTGRESQL:CVE-2019-10127	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10127
+|     	POSTGRESQL:CVE-2018-1058	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2018-1058
+|     	POSTGRESQL:CVE-2017-7547	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-7547
+|     	POSTGRESQL:CVE-2015-0243	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-0243
+|     	POSTGRESQL:CVE-2015-0242	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-0242
+|     	POSTGRESQL:CVE-2015-0241	8.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-0241
+|     	CVE-2026-6637	8.8	https://vulners.com/cve/CVE-2026-6637
+|     	CVE-2026-6477	8.8	https://vulners.com/cve/CVE-2026-6477
+|     	CVE-2026-6475	8.8	https://vulners.com/cve/CVE-2026-6475
+|     	CVE-2026-6473	8.8	https://vulners.com/cve/CVE-2026-6473
+|     	CVE-2020-25695	8.8	https://vulners.com/cve/CVE-2020-25695
+|     	CVE-2019-10127	8.8	https://vulners.com/cve/CVE-2019-10127
+|     	CVE-2015-0243	8.8	https://vulners.com/cve/CVE-2015-0243
+|     	CVE-2015-0242	8.8	https://vulners.com/cve/CVE-2015-0242
+|     	CVE-2015-0241	8.8	https://vulners.com/cve/CVE-2015-0241
+|     	POSTGRESQL:CVE-2018-10915	8.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2018-10915
+|     	POSTGRESQL:CVE-2013-1900	8.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2013-1900
+|     	POSTGRESQL:CVE-2010-1169	8.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2010-1169
+|     	CVE-2010-1447	8.5	https://vulners.com/cve/CVE-2010-1447
+|     	CVE-2010-1169	8.5	https://vulners.com/cve/CVE-2010-1169
+|     	POSTGRESQL:CVE-2016-5423	8.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2016-5423
+|     	CVE-2016-5423	8.3	https://vulners.com/cve/CVE-2016-5423
+|     	POSTGRESQL:CVE-2026-6478	8.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6478
+|     	POSTGRESQL:CVE-2026-2007	8.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-2007
+|     	POSTGRESQL:CVE-2026-14679	8.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14679
+|     	CVE-2026-6478	8.2	https://vulners.com/cve/CVE-2026-6478
+|     	POSTGRESQL:CVE-2026-6464	8.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6464
+|     	POSTGRESQL:CVE-2026-14668	8.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14668
+|     	POSTGRESQL:CVE-2025-1094	8.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2025-1094
+|     	POSTGRESQL:CVE-2021-23214	8.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2021-23214
+|     	POSTGRESQL:CVE-2020-25694	8.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2020-25694
+|     	POSTGRESQL:CVE-2018-10925	8.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2018-10925
+|     	POSTGRESQL:CVE-2017-15098	8.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-15098
+|     	CVE-2021-23214	8.1	https://vulners.com/cve/CVE-2021-23214
+|     	CVE-2020-25694	8.1	https://vulners.com/cve/CVE-2020-25694
+|     	POSTGRESQL:CVE-2024-0985	8.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2024-0985
+|     	POSTGRESQL:CVE-2022-2625	8.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2022-2625
+|     	POSTGRESQL:CVE-2019-3466	7.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-3466
+|     	POSTGRESQL:CVE-2019-10128	7.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10128
+|     	CVE-2019-10128	7.8	https://vulners.com/cve/CVE-2019-10128
+|     	POSTGRESQL:CVE-2020-25696	7.6	https://vulners.com/postgresql/POSTGRESQL:CVE-2020-25696
+|     	POSTGRESQL:CVE-2026-6479	7.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6479
+|     	POSTGRESQL:CVE-2017-7548	7.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-7548
+|     	POSTGRESQL:CVE-2017-7486	7.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-7486
+|     	POSTGRESQL:CVE-2017-7484	7.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-7484
+|     	POSTGRESQL:CVE-2016-2193	7.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2016-2193
+|     	POSTGRESQL:CVE-2016-0773	7.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2016-0773
+|     	POSTGRESQL:CVE-2015-3167	7.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-3167
+|     	CVE-2026-6479	7.5	https://vulners.com/cve/CVE-2026-6479
+|     	CVE-2017-7484	7.5	https://vulners.com/cve/CVE-2017-7484
+|     	CVE-2016-0773	7.5	https://vulners.com/cve/CVE-2016-0773
+|     	CVE-2016-0768	7.5	https://vulners.com/cve/CVE-2016-0768
+|     	CVE-2015-3167	7.5	https://vulners.com/cve/CVE-2015-3167
+|     	POSTGRESQL:CVE-2020-14350	7.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2020-14350
+|     	POSTGRESQL:CVE-2020-10733	7.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2020-10733
+|     	CVE-2017-14798	7.3	https://vulners.com/cve/CVE-2017-14798
+|     	POSTGRESQL:CVE-2026-6476	7.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6476
+|     	POSTGRESQL:CVE-2026-6471	7.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6471
+|     	POSTGRESQL:CVE-2023-2454	7.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2023-2454
+|     	POSTGRESQL:CVE-2017-12172	7.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-12172
+|     	POSTGRESQL:CVE-2020-14349	7.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2020-14349
+|     	POSTGRESQL:CVE-2016-5424	7.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2016-5424
+|     	CVE-2016-5424	7.1	https://vulners.com/cve/CVE-2016-5424
+|     	POSTGRESQL:CVE-2019-10210	7.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10210
+|     	POSTGRESQL:CVE-2018-1053	7.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2018-1053
+|     	CVE-2019-10210	7.0	https://vulners.com/cve/CVE-2019-10210
+|     	POSTGRESQL:CVE-2013-0255	6.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2013-0255
+|     	POSTGRESQL:CVE-2012-0868	6.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2012-0868
+|     	POSTGRESQL:CVE-2009-3231	6.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2009-3231
+|     	CVE-2013-0255	6.8	https://vulners.com/cve/CVE-2013-0255
+|     	CVE-2012-0868	6.8	https://vulners.com/cve/CVE-2012-0868
+|     	CVE-2009-3231	6.8	https://vulners.com/cve/CVE-2009-3231
+|     	POSTGRESQL:CVE-2026-14663	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14663
+|     	POSTGRESQL:CVE-2021-3677	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2021-3677
+|     	POSTGRESQL:CVE-2021-32029	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2021-32029
+|     	POSTGRESQL:CVE-2021-32028	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2021-32028
+|     	POSTGRESQL:CVE-2020-1720	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2020-1720
+|     	POSTGRESQL:CVE-2019-10129	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10129
+|     	POSTGRESQL:CVE-2018-1052	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2018-1052
+|     	POSTGRESQL:CVE-2017-15099	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-15099
+|     	POSTGRESQL:CVE-2014-0065	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-0065
+|     	POSTGRESQL:CVE-2014-0064	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-0064
+|     	POSTGRESQL:CVE-2014-0063	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-0063
+|     	POSTGRESQL:CVE-2014-0061	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-0061
+|     	POSTGRESQL:CVE-2013-1899	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2013-1899
+|     	POSTGRESQL:CVE-2012-3489	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2012-3489
+|     	POSTGRESQL:CVE-2012-0866	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2012-0866
+|     	POSTGRESQL:CVE-2010-4015	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2010-4015
+|     	POSTGRESQL:CVE-2009-4136	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2009-4136
+|     	POSTGRESQL:CVE-2009-3230	6.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2009-3230
+|     	CVE-2014-0065	6.5	https://vulners.com/cve/CVE-2014-0065
+|     	CVE-2014-0064	6.5	https://vulners.com/cve/CVE-2014-0064
+|     	CVE-2014-0063	6.5	https://vulners.com/cve/CVE-2014-0063
+|     	CVE-2014-0061	6.5	https://vulners.com/cve/CVE-2014-0061
+|     	CVE-2012-3489	6.5	https://vulners.com/cve/CVE-2012-3489
+|     	CVE-2012-0866	6.5	https://vulners.com/cve/CVE-2012-0866
+|     	CVE-2010-4015	6.5	https://vulners.com/cve/CVE-2010-4015
+|     	CVE-2010-0442	6.5	https://vulners.com/cve/CVE-2010-0442
+|     	POSTGRESQL:CVE-2015-5289	6.4	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-5289
+|     	POSTGRESQL:CVE-2015-5288	6.4	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-5288
+|     	CVE-2015-5288	6.4	https://vulners.com/cve/CVE-2015-5288
+|     	POSTGRESQL:CVE-2010-3433	6.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2010-3433
+|     	POSTGRESQL:CVE-2010-1170	6.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2010-1170
+|     	CVE-2010-3433	6.0	https://vulners.com/cve/CVE-2010-3433
+|     	CVE-2010-1170	6.0	https://vulners.com/cve/CVE-2010-1170
+|     	POSTGRESQL:CVE-2025-4207	5.9	https://vulners.com/postgresql/POSTGRESQL:CVE-2025-4207
+|     	POSTGRESQL:CVE-2025-12818	5.9	https://vulners.com/postgresql/POSTGRESQL:CVE-2025-12818
+|     	POSTGRESQL:CVE-2021-23222	5.9	https://vulners.com/postgresql/POSTGRESQL:CVE-2021-23222
+|     	POSTGRESQL:CVE-2017-7485	5.9	https://vulners.com/postgresql/POSTGRESQL:CVE-2017-7485
+|     	POSTGRESQL:CVE-2009-4034	5.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2009-4034
+|     	POSTGRESQL:CVE-2010-1975	5.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2010-1975
+|     	CVE-2010-1975	5.5	https://vulners.com/cve/CVE-2010-1975
+|     	POSTGRESQL:CVE-2026-6472	5.4	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6472
+|     	POSTGRESQL:CVE-2024-10976	5.4	https://vulners.com/postgresql/POSTGRESQL:CVE-2024-10976
+|     	POSTGRESQL:CVE-2023-2455	5.4	https://vulners.com/postgresql/POSTGRESQL:CVE-2023-2455
+|     	CVE-2026-6472	5.4	https://vulners.com/cve/CVE-2026-6472
+|     	POSTGRESQL:CVE-2026-14672	5.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14672
+|     	CVE-2011-2483	5.0	https://vulners.com/cve/CVE-2011-2483
+|     	POSTGRESQL:CVE-2014-0062	4.9	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-0062
+|     	POSTGRESQL:CVE-2012-3488	4.9	https://vulners.com/postgresql/POSTGRESQL:CVE-2012-3488
+|     	CVE-2014-0062	4.9	https://vulners.com/cve/CVE-2014-0062
+|     	CVE-2012-3488	4.9	https://vulners.com/cve/CVE-2012-3488
+|     	POSTGRESQL:CVE-2014-0067	4.6	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-0067
+|     	CVE-2014-0067	4.6	https://vulners.com/cve/CVE-2014-0067
+|     	POSTGRESQL:CVE-2023-5870	4.4	https://vulners.com/postgresql/POSTGRESQL:CVE-2023-5870
+|     	POSTGRESQL:CVE-2026-6575	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6575
+|     	POSTGRESQL:CVE-2026-6474	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6474
+|     	POSTGRESQL:CVE-2026-6470	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6470
+|     	POSTGRESQL:CVE-2026-2003	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-2003
+|     	POSTGRESQL:CVE-2026-18024	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-18024
+|     	POSTGRESQL:CVE-2026-14678	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14678
+|     	POSTGRESQL:CVE-2024-4317	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2024-4317
+|     	POSTGRESQL:CVE-2023-5868	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2023-5868
+|     	POSTGRESQL:CVE-2023-39418	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2023-39418
+|     	POSTGRESQL:CVE-2021-3393	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2021-3393
+|     	POSTGRESQL:CVE-2021-20229	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2021-20229
+|     	POSTGRESQL:CVE-2019-10130	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10130
+|     	POSTGRESQL:CVE-2015-3165	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2015-3165
+|     	POSTGRESQL:CVE-2014-8161	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-8161
+|     	POSTGRESQL:CVE-2012-2143	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2012-2143
+|     	POSTGRESQL:CVE-2012-0867	4.3	https://vulners.com/postgresql/POSTGRESQL:CVE-2012-0867
+|     	CVE-2026-6474	4.3	https://vulners.com/cve/CVE-2026-6474
+|     	CVE-2021-3393	4.3	https://vulners.com/cve/CVE-2021-3393
+|     	CVE-2015-3165	4.3	https://vulners.com/cve/CVE-2015-3165
+|     	CVE-2014-8161	4.3	https://vulners.com/cve/CVE-2014-8161
+|     	CVE-2012-2143	4.3	https://vulners.com/cve/CVE-2012-2143
+|     	POSTGRESQL:CVE-2026-14681	4.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14681
+|     	POSTGRESQL:CVE-2026-14666	4.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14666
+|     	POSTGRESQL:CVE-2024-10978	4.2	https://vulners.com/postgresql/POSTGRESQL:CVE-2024-10978
+|     	POSTGRESQL:CVE-2014-0066	4.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-0066
+|     	POSTGRESQL:CVE-2014-0060	4.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2014-0060
+|     	POSTGRESQL:CVE-2013-1901	4.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2013-1901
+|     	POSTGRESQL:CVE-2012-2655	4.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2012-2655
+|     	POSTGRESQL:CVE-2009-3229	4.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2009-3229
+|     	POSTGRESQL:CVE-2009-0922	4.0	https://vulners.com/postgresql/POSTGRESQL:CVE-2009-0922
+|     	CVE-2014-0066	4.0	https://vulners.com/cve/CVE-2014-0066
+|     	CVE-2014-0060	4.0	https://vulners.com/cve/CVE-2014-0060
+|     	CVE-2012-2655	4.0	https://vulners.com/cve/CVE-2012-2655
+|     	CVE-2009-3229	4.0	https://vulners.com/cve/CVE-2009-3229
+|     	POSTGRESQL:CVE-2026-6469	3.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-6469
+|     	POSTGRESQL:CVE-2026-16241	3.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-16241
+|     	POSTGRESQL:CVE-2026-14673	3.8	https://vulners.com/postgresql/POSTGRESQL:CVE-2026-14673
+|     	POSTGRESQL:CVE-2024-10977	3.7	https://vulners.com/postgresql/POSTGRESQL:CVE-2024-10977
+|     	POSTGRESQL:CVE-2022-41862	3.7	https://vulners.com/postgresql/POSTGRESQL:CVE-2022-41862
+|     	POSTGRESQL:CVE-2019-10209	3.5	https://vulners.com/postgresql/POSTGRESQL:CVE-2019-10209
+|     	CVE-2010-0733	3.5	https://vulners.com/cve/CVE-2010-0733
+|     	POSTGRESQL:CVE-2025-8713	3.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2025-8713
+|_    	POSTGRESQL:CVE-2025-12817	3.1	https://vulners.com/postgresql/POSTGRESQL:CVE-2025-12817
+|   VULNERABLE:
+|     State: VULNERABLE
+|     Risk factor: High
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0224
+|   VULNERABLE:
+|     State: VULNERABLE
+|   VULNERABLE:
+|     State: VULNERABLE
+|     IDs:  BID:70574  CVE:CVE-2014-3566
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566
+
+==============================================================
+                    CVSS THREAT LEVEL
+==============================================================
+
+Severity scale:
+9.0 - 10.0 : CRITICAL
+7.0 - 8.9  : HIGH
+4.0 - 6.9  : MEDIUM
+0.1 - 3.9  : LOW
+0.0        : NONE
+
+CVE        : CVE-2011-2523
+CVSS Score : 10.0
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2023-38408
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2016-1908
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2010-4478
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2026-60002
+CVSS Score : 9.4
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2015-5600
+CVSS Score : 8.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-35414
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-35386
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-35385
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-106583
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-15778
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-6515
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-10012
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-8325
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-60000
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-59999
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-106555
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-106553
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-10708
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-10009
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2014-1692
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2010-5107
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-10010
+CVSS Score : 7.0
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-6564
+CVSS Score : 7.0
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-6110
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2019-6109
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-60001
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-59998
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-35387
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-106585
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-106552
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2023-51385
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-2653
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-0814
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2008-1657
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2016-3115
+CVSS Score : 6.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-6563
+CVSS Score : 6.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2016-10011
+CVSS Score : 6.2
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2023-48795
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2019-6111
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2018-15473
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2016-6210
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-2532
+CVSS Score : 5.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-4327
+CVSS Score : 5.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-59997
+CVSS Score : 5.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-59996
+CVSS Score : 5.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-59995
+CVSS Score : 5.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2018-20685
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2017-15906
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2016-20012
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-73282
+CVSS Score : 4.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-106586
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-5352
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-4755
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-106582
+CVSS Score : 3.7
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2021-36368
+CVSS Score : 3.7
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-106587
+CVSS Score : 3.6
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2025-61985
+CVSS Score : 3.6
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2025-61984
+CVSS Score : 3.6
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-73281
+CVSS Score : 3.5
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2011-5000
+CVSS Score : 3.5
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-106584
+CVSS Score : 3.3
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-106588
+CVSS Score : 3.1
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-106589
+CVSS Score : 2.9
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-73283
+CVSS Score : 2.5
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-35388
+CVSS Score : 2.5
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2008-3259
+CVSS Score : 1.2
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2008-0122
+CVSS Score : 10.0
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2021-25216
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2020-8616
+CVSS Score : 8.6
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-1286
+CVSS Score : 8.6
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2012-1667
+CVSS Score : 8.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-3141
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-2776
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-5722
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-5477
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2014-8500
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2012-5166
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2012-4244
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2012-3817
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2008-4163
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2010-0382
+CVSS Score : 7.6
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-3039
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2024-1975
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-50868
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-50387
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-4408
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-3341
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2021-25215
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-8617
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-3145
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-3143
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-9444
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-9131
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-8864
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-2848
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2009-0265
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-8461
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-5986
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-8705
+CVSS Score : 7.0
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-1285
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-8704
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-0025
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2020-8622
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2018-5741
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2016-6170
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-3614
+CVSS Score : 6.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2016-2775
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2022-2795
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2021-25219
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2017-3142
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-8000
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-1033
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-4313
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-1910
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-3762
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-0097
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-0696
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-0290
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-4022
+CVSS Score : 2.6
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2010-0425
+CVSS Score : 10.0
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2026-28780
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2024-38476
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2022-31813
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2022-22720
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2021-44790
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2021-39275
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2018-1312
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2017-7679
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2017-3169
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2017-3167
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2009-3555
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2025-49812
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2026-89282
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2026-42535
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2024-40898
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2022-28615
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2022-22721
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2017-9788
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2021-40438
+CVSS Score : 9.0
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2026-93546
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-24072
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2025-59775
+CVSS Score : 8.7
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2025-58098
+CVSS Score : 8.7
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2024-47252
+CVSS Score : 8.7
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2024-43204
+CVSS Score : 8.7
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2024-42516
+CVSS Score : 8.7
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-89281
+CVSS Score : 8.4
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2025-58098
+CVSS Score : 8.3
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-5387
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2011-3192
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-34059
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-29169
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-31122
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2022-30556
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2022-29404
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2022-22719
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2021-34798
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2018-1333
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2018-1303
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-9798
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-15710
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-8743
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2009-2699
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2009-1955
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2006-20001
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2025-49812
+CVSS Score : 7.4
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-38709
+CVSS Score : 7.3
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2009-1891
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2009-1890
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2012-0883
+CVSS Score : 6.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0226
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-1956
+CVSS Score : 6.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-29170
+CVSS Score : 6.1
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2016-4975
+CVSS Score : 6.1
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2018-1302
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2018-1301
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-34032
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-33857
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2022-37436
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2022-28614
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2022-28330
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2013-1862
+CVSS Score : 5.1
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-3183
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-0228
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0231
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0098
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2013-6438
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2013-5704
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-3368
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-1623
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-1452
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-0408
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3720
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3560
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3095
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2008-2364
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2007-6750
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-1195
+CVSS Score : 4.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-33006
+CVSS Score : 4.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-0031
+CVSS Score : 4.6
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-3607
+CVSS Score : 4.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-42528
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2016-8612
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0118
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2013-1896
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-4558
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-3499
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-0053
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-4317
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-3639
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-0419
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-0434
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-0023
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2008-2939
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2008-0455
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2007-6420
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-2687
+CVSS Score : 2.6
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2009-3094
+CVSS Score : 2.6
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2008-0456
+CVSS Score : 2.6
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2011-4415
+CVSS Score : 1.2
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2019-12815
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2011-4130
+CVSS Score : 9.0
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2026-63090
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-35025
+CVSS Score : 8.6
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-44331
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-42167
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-53994
+CVSS Score : 7.7
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2024-48651
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-51713
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2021-46854
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-9272
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-19272
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-19271
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-19270
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-18217
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-3125
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-63091
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2010-3867
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2010-4652
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-0543
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2023-48795
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3639
+CVSS Score : 5.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2017-7418
+CVSS Score : 5.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-1137
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2019-19269
+CVSS Score : 4.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2008-7265
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-6095
+CVSS Score : 1.2
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2017-15945
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2009-4028
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-1621
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-2575
+CVSS Score : 4.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2008-2079
+CVSS Score : 4.6
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-3682
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-3677
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-0819
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2007-5925
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-1626
+CVSS Score : 3.6
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2013-1903
+CVSS Score : 10.0
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2013-1902
+CVSS Score : 10.0
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2019-10211
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2018-16850
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2017-7546
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2015-3166
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2015-0244
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2019-10211
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2015-3166
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2015-0244
+CVSS Score : 9.8
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2016-7048
+CVSS Score : 9.3
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2016-7048
+CVSS Score : 9.3
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2018-1115
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2016-3065
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2018-1115
+CVSS Score : 9.1
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2019-10164
+CVSS Score : 9.0
+Threat     : CRITICAL
+--------------------------------------------------------------
+CVE        : CVE-2026-6638
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6637
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6477
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6475
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6473
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-2006
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-2005
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-2004
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-19385
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-18408
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-16239
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-16238
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-15742
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-15741
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14680
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14677
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14676
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14671
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14670
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14669
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14664
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14662
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2025-8715
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2025-8714
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2024-7348
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2024-10979
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-5869
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-39417
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2022-1552
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2021-32027
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-25695
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-10208
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-10127
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2018-1058
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-7547
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-0243
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-0242
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-0241
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6637
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6477
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6475
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6473
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-25695
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-10127
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-0243
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-0242
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-0241
+CVSS Score : 8.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2018-10915
+CVSS Score : 8.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2013-1900
+CVSS Score : 8.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2010-1169
+CVSS Score : 8.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2010-1447
+CVSS Score : 8.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2010-1169
+CVSS Score : 8.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-5423
+CVSS Score : 8.3
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-5423
+CVSS Score : 8.3
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6478
+CVSS Score : 8.2
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-2007
+CVSS Score : 8.2
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14679
+CVSS Score : 8.2
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6478
+CVSS Score : 8.2
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6464
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-14668
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2025-1094
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2021-23214
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-25694
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2018-10925
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-15098
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2021-23214
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-25694
+CVSS Score : 8.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2024-0985
+CVSS Score : 8.0
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2022-2625
+CVSS Score : 8.0
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-3466
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-10128
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-10128
+CVSS Score : 7.8
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-25696
+CVSS Score : 7.6
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6479
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-7548
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-7486
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-7484
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-2193
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-0773
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-3167
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6479
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-7484
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-0773
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-0768
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2015-3167
+CVSS Score : 7.5
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-14350
+CVSS Score : 7.3
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-10733
+CVSS Score : 7.3
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-14798
+CVSS Score : 7.3
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6476
+CVSS Score : 7.2
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2026-6471
+CVSS Score : 7.2
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2023-2454
+CVSS Score : 7.2
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2017-12172
+CVSS Score : 7.2
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2020-14349
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-5424
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2016-5424
+CVSS Score : 7.1
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-10210
+CVSS Score : 7.0
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2018-1053
+CVSS Score : 7.0
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2019-10210
+CVSS Score : 7.0
+Threat     : HIGH
+--------------------------------------------------------------
+CVE        : CVE-2013-0255
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-0868
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3231
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2013-0255
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-0868
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3231
+CVSS Score : 6.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-14663
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2021-3677
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2021-32029
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2021-32028
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2020-1720
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2019-10129
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2018-1052
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2017-15099
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0065
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0064
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0063
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0061
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2013-1899
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-3489
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-0866
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-4015
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-4136
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3230
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0065
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0064
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0063
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0061
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-3489
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-0866
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-4015
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-0442
+CVSS Score : 6.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-5289
+CVSS Score : 6.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-5288
+CVSS Score : 6.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-5288
+CVSS Score : 6.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-3433
+CVSS Score : 6.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-1170
+CVSS Score : 6.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-3433
+CVSS Score : 6.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-1170
+CVSS Score : 6.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2025-4207
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2025-12818
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2021-23222
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2017-7485
+CVSS Score : 5.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-4034
+CVSS Score : 5.8
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-1975
+CVSS Score : 5.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2010-1975
+CVSS Score : 5.5
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-6472
+CVSS Score : 5.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2024-10976
+CVSS Score : 5.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2023-2455
+CVSS Score : 5.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-6472
+CVSS Score : 5.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-14672
+CVSS Score : 5.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2011-2483
+CVSS Score : 5.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0062
+CVSS Score : 4.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-3488
+CVSS Score : 4.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0062
+CVSS Score : 4.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-3488
+CVSS Score : 4.9
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0067
+CVSS Score : 4.6
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0067
+CVSS Score : 4.6
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2023-5870
+CVSS Score : 4.4
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-6575
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-6474
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-6470
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-2003
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-18024
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-14678
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2024-4317
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2023-5868
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2023-39418
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2021-3393
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2021-20229
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2019-10130
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-3165
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-8161
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-2143
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-0867
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-6474
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2021-3393
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2015-3165
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-8161
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-2143
+CVSS Score : 4.3
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-14681
+CVSS Score : 4.2
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-14666
+CVSS Score : 4.2
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2024-10978
+CVSS Score : 4.2
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0066
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0060
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2013-1901
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-2655
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3229
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-0922
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0066
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2014-0060
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2012-2655
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2009-3229
+CVSS Score : 4.0
+Threat     : MEDIUM
+--------------------------------------------------------------
+CVE        : CVE-2026-6469
+CVSS Score : 3.8
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-16241
+CVSS Score : 3.8
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2026-14673
+CVSS Score : 3.8
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2024-10977
+CVSS Score : 3.7
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2022-41862
+CVSS Score : 3.7
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2019-10209
+CVSS Score : 3.5
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2010-0733
+CVSS Score : 3.5
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2025-8713
+CVSS Score : 3.1
+Threat     : LOW
+--------------------------------------------------------------
+CVE        : CVE-2025-12817
+CVSS Score : 3.1
+Threat     : LOW
+--------------------------------------------------------------
+Web service detected: yes
+
+==============================================================
+                 GENERAL RECOMMENDATIONS
+==============================================================
+
+1. Patch vulnerable software and services.
+2. Review identified CVEs and vendor advisories.
+3. Restrict unnecessary exposed ports.
+4. Disable unnecessary services.
+5. Keep operating systems and applications updated.
+6. Investigate Critical and High severity findings first.
+
+
+==============================================================
+                  ASSESSMENT COMPLETE
+==============================================================
+
+Target       : 192.168.18.134
+Date         : 2026-10-28 04:56:33
+
+Main report  : Results/scans.txt
+Recon folder : Results/reconnaissance
+Nmap folder  : Results/nmap
+Web folder   : Results/web
+

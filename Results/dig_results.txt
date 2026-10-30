@@ -1,0 +1,133 @@
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39386
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;192.168.18.134.			IN	A
+
+;; ANSWER SECTION:
+192.168.18.134.		5	IN	A	192.168.18.134
+
+;; Query time: 83 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Thu Oct 01 04:12:19 EDT 2026
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.20.23-1-Debian <<>> -x 192.168.18.134
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45484
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1280
+;; QUESTION SECTION:
+;134.18.168.192.in-addr.arpa.	IN	PTR
+
+;; Query time: 59 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Thu Oct 01 04:12:19 EDT 2026
+;; MSG SIZE  rcvd: 56
+
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 MX
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43701
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1280
+;; QUESTION SECTION:
+;192.168.18.134.			IN	MX
+
+;; AUTHORITY SECTION:
+.			5	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026093003 1800 900 604800 86400
+
+;; Query time: 111 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Thu Oct 01 04:12:19 EDT 2026
+;; MSG SIZE  rcvd: 118
+
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 NS
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24195
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1280
+;; QUESTION SECTION:
+;192.168.18.134.			IN	NS
+
+;; AUTHORITY SECTION:
+.			5	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026093003 1800 900 604800 86400
+
+;; Query time: 298 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Thu Oct 01 04:12:20 EDT 2026
+;; MSG SIZE  rcvd: 118
+
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39508
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1280
+;; QUESTION SECTION:
+;192.168.18.134.			IN	TXT
+
+;; AUTHORITY SECTION:
+.			5	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026093003 1800 900 604800 86400
+
+;; Query time: 199 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Thu Oct 01 04:12:20 EDT 2026
+;; MSG SIZE  rcvd: 118
+
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16647
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;192.168.18.134.			IN	A
+
+;; ANSWER SECTION:
+192.168.18.134.		5	IN	A	192.168.18.134
+
+;; Query time: 59 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Thu Oct 01 04:12:20 EDT 2026
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.20.23-1-Debian <<>> 192.168.18.134 AAAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60503
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1280
+;; QUESTION SECTION:
+;192.168.18.134.			IN	AAAA
+
+;; AUTHORITY SECTION:
+.			5	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026093003 1800 900 604800 86400
+
+;; Query time: 19 msec
+;; SERVER: 192.168.18.2#53(192.168.18.2) (UDP)
+;; WHEN: Thu Oct 01 04:12:20 EDT 2026
+;; MSG SIZE  rcvd: 118
+
